@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export default function HeroBanner() {
   return (
     <div className="relative isolate overflow-hidden bg-white h-screen">
-      {/* First Animated Shape */}
+   
       <motion.div
         className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         aria-hidden="true"
@@ -27,7 +27,7 @@ export default function HeroBanner() {
         />
       </motion.div>
 
-      {/* Second Animated Shape */}
+    
       <motion.div
         className="absolute inset-x-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
